@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#24352b">
+  <meta name="description" content="Discover Urban Cafe in Dhaneta, Himachal Pradesh. Explore our menu and get in touch to order.">
+  <title>Urban Cafe — Good food. Better moments.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">A LITTLE CORNER OF GOOD TASTE <span>·</span> DHANETA, HIMACHAL</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Urban Cafe home">urban cafe<span>.</span><small>DHANETA · HIMACHAL</small></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a><a href="#menu">Menu</a><a href="#story">Our story</a><a href="#visit">Find us</a>
+    </nav>
+    <button class="bag-button" id="openCart">Your bag <span id="bagCount">0</span></button>
+  </header>
+
+  <main id="home">
+    <section class="hero page-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">GOOD FOOD · GOOD MOOD</p>
+        <h1>Good food.<br><em>Better</em> moments.</h1>
+        <p class="hero-description">From comforting favourites to something a little indulgent. Find your next favourite bite at Urban Cafe.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#menu">Explore the menu <span>↗</span></a><a class="text-link" href="#visit">Come visit us</a></div>
+        <div class="hero-note">MADE FOR THE MOMENTS THAT MATTER</div>
+      </div>
+      <div class="hero-visual reveal">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1400&q=85" alt="Freshly baked pizza on a table">
+        <div class="image-caption">A good day starts here.</div>
+        <div class="image-index">01 / FRESH FAVOURITES</div>
+      </div>
+    </section>
+
+    <div class="ticker"><span>FRESHLY MADE FAVOURITES</span><i>✳</i><span>GOOD FOOD, GOOD MOOD</span><i>✳</i><span>MADE TO BE SHARED</span><i>✳</i><span>DHANETA, HIMACHAL</span></div>
+
+    <section class="menu-section page-shell" id="menu">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">A TASTE OF URBAN</p><h2>Something for<br><em>every craving.</em></h2></div>
+        <p class="section-intro">Take a look around, find something you love, and add it to your bag. Menu items and prices shown here are demo content until confirmed by the cafe.</p>
+      </div>
+      <div class="menu-toolbar">
+        <div class="filters" id="filters" aria-label="Filter menu">
+          <button class="filter active" data-category="All">All favourites</button>
+          <button class="filter" data-category="Pizza">Pizza</button>
+          <button class="filter" data-category="Burgers">Burgers</button>
+          <button class="filter" data-category="Sides">Sides</button>
+          <button class="filter" data-category="Drinks">Drinks</button>
+        </div>
+        <label class="search"><span>⌕</span><input id="menuSearch" type="search" placeholder="Find something..." aria-label="Search menu"></label>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="demo-note">DEMO MENU · Product names, descriptions, images and prices are illustrative. Replace with the cafe's approved menu before launch.</p>
+    </section>
+
+    <section class="story-section" id="story">
+      <div class="story-image"><img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=85" alt="Warm and welcoming cafe interior"></div>
+      <div class="story-copy"><p class="eyebrow">MORE THAN JUST A MEAL</p><h2>A place to pause.<br><em>A reason to stay.</em></h2><p>Good food has a way of bringing people together. Urban Cafe is your neighbourhood spot for familiar flavours, easy conversations and moments worth slowing down for.</p><a href="#visit" class="button button-light">Get to know us <span>↗</span></a></div>
+    </section>
+
+    <section class="visit-section page-shell" id="visit">
+      <div class="visit-copy"><p class="eyebrow">COME SAY HELLO</p><h2>Find your<br><em>way to Urban.</em></h2><p>Dhaneta – Kangoo Road, Dhaneta, Himachal Pradesh 177041</p><div class="contact-line"><span>CALL US</span><a href="tel:+918278843543">+91 82788 43543</a></div><div class="contact-line"><span>HOURS</span><strong>Listed until 9 PM · Please confirm today's hours</strong></div><a class="button button-dark" target="_blank" rel="noopener" href="https://maps.google.com/?q=Urban+Cafe+Dhaneta+Himachal+Pradesh">Get directions <span>↗</span></a></div>
+      <a class="map-card" target="_blank" rel="noopener" href="https://maps.google.com/?q=Urban+Cafe+Dhaneta+Himachal+Pradesh"><span class="map-pin">⌖</span><strong>Urban Cafe</strong><span>Dhaneta – Kangoo Road</span><small>OPEN IN GOOGLE MAPS ↗</small></a>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="footer-inner page-shell"><div><a class="brand brand-footer" href="#home">urban cafe<span>.</span><small>DHANETA · HIMACHAL</small></a><p>Good food. Better moments.<br>A neighbourhood cafe in Dhaneta.</p></div><div><p class="footer-label">EXPLORE</p><a href="#home">Home</a><a href="#menu">Menu</a><a href="#story">Our story</a></div><div><p class="footer-label">SAY HELLO</p><a href="tel:+918278843543">082788 43543</a><a href="https://maps.google.com/?q=Urban+Cafe+Dhaneta">Find us</a></div></div><div class="footer-bottom page-shell"><span>© <span id="year"></span> Urban Cafe · Website concept</span><span>Made with care.</span></div></footer>
+
+  <div class="scrim" id="scrim"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true">
+    <div class="drawer-header"><div><p class="eyebrow">YOUR SELECTION</p><h2>Your bag<span>.</span></h2></div><button class="icon-button" id="closeCart" aria-label="Close bag">×</button></div>
+    <div class="cart-lines" id="cartLines"></div>
+    <div class="cart-bottom" id="cartBottom"><div class="summary-row"><span>Subtotal</span><strong id="subtotal">₹0</strong></div><p class="cart-disclaimer">Delivery charges and final availability will be confirmed by the cafe.</p><button class="button button-dark full-button" id="checkoutButton">Continue to order <span>↗</span></button></div>
+  </aside>
+
+  <dialog class="checkout-dialog" id="checkoutDialog">
+    <form id="checkoutForm" method="dialog">
+      <div class="dialog-top"><p class="eyebrow">ONE LAST THING</p><button class="icon-button" type="button" id="closeCheckout" aria-label="Close">×</button></div>
+      <h2>Let's get this<br><em>to you.</em></h2>
+      <p class="dialog-intro">This demo sends your order details to WhatsApp for confirmation. No online payment is collected.</p>
+      <label>Your name<input name="name" required autocomplete="name" placeholder="Your name"></label>
+      <label>Mobile number<input name="phone" required inputmode="numeric" pattern="[0-9]{10}" placeholder="10-digit mobile number"></label>
+      <fieldset><legend>How would you like it?</legend><label class="radio-label"><input type="radio" name="fulfilment" value="Delivery" checked> Delivery</label><label class="radio-label"><input type="radio" name="fulfilment" value="Takeaway"> Takeaway</label></fieldset>
+      <label id="addressLabel">Delivery address<textarea name="address" rows="2" placeholder="House, street, locality"></textarea></label>
+      <label>Anything else? <textarea name="notes" rows="2" placeholder="Special instructions (optional)"></textarea></label>
+      <div class="dialog-total"><span>Estimated subtotal</span><strong id="dialogTotal">₹0</strong></div>
+      <button class="button button-dark full-button" type="submit">Send order enquiry on WhatsApp ↗</button>
+      <p class="secure-note">Demo ordering flow · Cafe confirmation required · No payment taken</p>
+    </form>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
